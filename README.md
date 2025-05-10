@@ -3,6 +3,9 @@ BeatRun combines the essential features of a pedometer, such as step tracking an
 ###PANDUAN INSTALASI###
 
 Aplikasi ini dapat berjalan di versi android 13 dan 14.
+
 Setelah instalasi aplikasi, pastikan semua akses diizinkan.
+
 Saat pertama kali membuka aplikasi, tekan tombol "INDOOR MODE" 1x untuk memastikan semua service berjalan dengan baik.
+
 Setelah itu, sesuaikan penggunaan mode (gunakan outdoor mode untuk berjalan di luar menggunakan perhitungan GPS, dan indoor mode untuk berjalan di dalam ruangan menggunakan perhitungan langkah kaki).
