@@ -2,7 +2,7 @@ BeatRun combines the essential features of a pedometer, such as step tracking an
 
 ###PANDUAN INSTALASI###
 
-Aplikasi ini dapat berjalan di versi android 13 dan 14.
+Aplikasi ini sudah diuji dan dapat berjalan di versi android 11 - 14.
 
 Setelah instalasi aplikasi, pastikan semua akses diizinkan.
 
