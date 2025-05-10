@@ -9,3 +9,5 @@ Setelah instalasi aplikasi, pastikan semua akses diizinkan.
 Saat pertama kali membuka aplikasi, tekan tombol "INDOOR MODE" 1x untuk memastikan semua service berjalan dengan baik.
 
 Setelah itu, sesuaikan penggunaan mode (gunakan outdoor mode untuk berjalan di luar menggunakan perhitungan GPS, dan indoor mode untuk berjalan di dalam ruangan menggunakan perhitungan langkah kaki).
+
+Akan terdapat delay saat pertama kali berjalan, namun setelah berjalan cukup lama, pemutar musik akan terus berjalan selama kita masih bergerak diatas kecepatan tertentu.
