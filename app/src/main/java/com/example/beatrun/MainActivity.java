@@ -262,8 +262,8 @@ public class MainActivity extends AppCompatActivity {
         if (steps >= 0) {
             tvSteps.setText(""+steps);
         }
-        if (distance >= 0) tvDistance.setText(String.format("%.2f M", distance));
-        if (speed >= 0) tvSpeed.setText(String.format("%.2f M/s", speed));
+        if (distance >= 0) tvDistance.setText(String.format("%.2f Km", distance));
+        if (speed >= 0) tvSpeed.setText(String.format("%.2f Km/H", speed));
     }
 
     private void startTrackingServiceByMode() {

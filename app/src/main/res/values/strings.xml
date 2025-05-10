@@ -16,8 +16,8 @@
     <string name="your_next_s">
         Your next song
     </string>
-    <string name="_0_00_km_h">0.00 M/H</string>
-    <string name="_0_00_m">0.00 M</string>
+    <string name="_0_00_km_h">0.00 Km/H</string>
+    <string name="_0_00_m">0.00 Km</string>
     <string name="song_title">Song Title</string>
     <string name="music_play">Music Play</string>
     <string name="music_delete">Music Delete</string>

@@ -34,7 +34,7 @@ public class StepMusicService extends Service implements SensorEventListener {
 
     @SuppressLint("UnspecifiedRegisterReceiverFlag")
     @Override
-    public void onCreate() {
+    public void onCreate(){
         super.onCreate();
         acquireWakeLock();
 
@@ -125,6 +125,8 @@ public class StepMusicService extends Service implements SensorEventListener {
 
         registerReceiver(controlReceiver, filter);
 
+
+
     }
 
     @Override
@@ -172,14 +174,14 @@ public class StepMusicService extends Service implements SensorEventListener {
                 long deltaTime = currentTime - lastStepTime;
                 if (deltaTime > 0) {
                     distance = statsCalculator.calculateDistance(1);
-                    speed = statsCalculator.calculateSpeed(distance, deltaTime); // m/s
+                    speed = statsCalculator.calculateSpeed(distance, deltaTime); // km/h
                 }
             }
             lastStepTime = currentTime;
 
             // Musik logic
             boolean isPlaying = musicController.isPlaying();
-            if (speed >= 1.5 && !isPlaying) {
+            if (speed >= 1.5  && !isPlaying) {
                 musicController.play();
             } else if (speed < 1.5 && isPlaying) {
                 musicController.pause("Slow movement");
