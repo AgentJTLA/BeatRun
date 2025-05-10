@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">BeatRun</string>
+    <string name="beatrun">beatrun</string>
+    <string name="beatrun_app_logo">BeatRun App Logo</string>
+    <string name="upload_music_button">Upload Music Button</string>
+    <string name="steps">Steps</string>
+    <string name="top_square">Top Square</string>
+    <string name="running_man">Running man</string>
+    <string name="_2000">0</string>
+    <string name="_15_km_h">15 Km/H</string>
+    <string name="_1524_km">1524 Km</string>
+    <string name="your_stats">Your stats</string>
+    <string name="don_t_stop_">Don\'t stop when you\'re tired.\nStop when you\'re done.
+    </string>
+    <string name="lower_square">Lower Square</string>
+    <string name="your_next_s">
+        Your next song
+    </string>
+    <string name="_0_00_km_h">0.00 M/H</string>
+    <string name="_0_00_m">0.00 M</string>
+    <string name="song_title">Song Title</string>
+    <string name="music_play">Music Play</string>
+    <string name="music_delete">Music Delete</string>
+    <string name="edit_music">Edit Music</string>
+    <string name="delete_music">Delete Music</string>
+    <string name="toggle_mode_button">Toggle Mode Button</string>
+    <string name="indoor_mode">
+        Indoor Mode
+    </string>
+    <string name="step_pause">Step pause</string>
+    <string name="step_reset">Step reset</string>
+    <string name="step_stop">Step stop</string>
+    <string name="now_playing">Now playing</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="no_song_currently_playing">No song currently playing</string>
+</resources>

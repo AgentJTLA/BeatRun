@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/homepage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <ImageView
+        android:id="@+id/beatrun_log"
+        android:layout_width="53dp"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/beatrun_app_logo"
+        android:src="@drawable/beatrun_logo" />
+
+    <ImageView
+        android:id="@+id/beatrun"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/beatrun"
+        android:src="@drawable/beatrun" />
+
+    <ImageButton
+        android:id="@+id/btnUpload"
+        android:layout_width="47dp"
+        android:layout_height="52dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="16dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/upload_music_button"
+        android:scaleType="centerInside"
+        android:src="@drawable/add_music_icon"
+        tools:ignore="TouchTargetSizeCheck,RedundantDescriptionCheck" />
+
+    <ImageView
+        android:id="@+id/top_square"
+        android:layout_width="match_parent"
+        android:layout_height="238dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="42dp"
+        android:contentDescription="@string/top_square"
+        app:srcCompat="@drawable/top_square" />
+
+    <ImageView
+        android:id="@+id/running_man"
+        android:layout_width="55dp"
+        android:layout_height="67dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="123dp"
+        android:contentDescription="@string/running_man"
+        app:srcCompat="@drawable/running_man" />
+
+    <TextView
+        android:id="@+id/tvSteps"
+        android:layout_width="91dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="113dp"
+        android:text="@string/_2000"
+        android:textAlignment="center"
+        android:textColor="#A7FF00"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="148dp"
+        android:text="@string/steps"
+        android:textAlignment="center"
+        android:textColor="#A7FF00"
+        android:textSize="36sp"
+        tools:ignore="RelativeOverlap,TextSizeCheck" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="258dp"
+        android:layout_marginTop="103dp"
+        android:text="@string/your_stats"
+        android:textAlignment="center"
+        android:textColor="#FFE900"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:ignore="RelativeOverlap" />
+
+    <TextView
+        android:id="@+id/tvDistance"
+        android:layout_width="200dp"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="213dp"
+        android:layout_marginTop="137dp"
+        android:text="@string/_0_00_m"
+        android:textAlignment="center"
+        android:textColor="#FFE900"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/tvSpeed"
+        android:layout_width="200dp"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="213dp"
+        android:layout_marginTop="173dp"
+        android:text="@string/_0_00_km_h"
+        android:textAlignment="center"
+        android:textColor="#FFE900"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/motivational"
+        android:layout_width="325dp"
+        android:layout_height="77dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="233dp"
+        android:fontFamily="@font/freeman_regular"
+        android:text="@string/don_t_stop_"
+        android:textAlignment="center"
+        android:textAppearance="@style/don_t_stop_"
+        tools:ignore="TextSizeCheck" />
+
+    <ImageView
+        android:id="@+id/lower_square"
+        android:layout_width="match_parent"
+        android:layout_height="229dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="305dp"
+        android:contentDescription="@string/lower_square"
+        app:srcCompat="@drawable/lower_square" />
+
+    <TextView
+        android:id="@+id/tvMusicStatus"
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="321dp"
+        android:fontFamily="@font/freeman_regular"
+        android:gravity="center_horizontal|top"
+        android:lineSpacingExtra="0sp"
+        android:text="@string/your_next_s"
+        android:textAlignment="center"
+        android:textAppearance="@style/your_next_s"
+        tools:ignore="TextSizeCheck" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/musicRecyclerView"
+        android:layout_width="361dp"
+        android:layout_height="140dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="366dp"
+        android:layout_marginEnd="25dp"
+        android:overScrollMode="ifContentScrolls"
+        android:scrollbars="vertical"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <LinearLayout
+        android:id="@+id/currentSongPanel"
+        android:layout_width="366dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="532dp"
+        android:background="@drawable/now_playing"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="7dp">
+
+        <ImageButton
+            android:id="@+id/btnPrevious"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/previous"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_prev"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/currentSongTitle"
+            android:layout_width="0dp"
+            android:layout_height="33dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/freeman_regular"
+            android:text="@string/no_song_currently_playing"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="TextSizeCheck" />
+
+        <ImageButton
+            android:id="@+id/btnNext"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/next"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_next"
+            tools:ignore="TouchTargetSizeCheck" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/btnToggleMode"
+        android:layout_width="249dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="593dp"
+        android:layout_marginEnd="106.5dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/ripple_upload_button"
+        android:contentDescription="@string/toggle_mode_button"
+        android:padding="8dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/toggle_mode"
+        tools:ignore="RedundantDescriptionCheck" />
+
+    <ImageButton
+        android:id="@+id/pauseStep"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="661dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/step_pause"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_pause" />
+
+    <ImageButton
+        android:id="@+id/resetStep"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="661dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/step_reset"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_reset" />
+
+    <ImageButton
+        android:id="@+id/stopStep"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="246dp"
+        android:layout_marginTop="661dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/step_stop"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_stop" />
+</RelativeLayout>
