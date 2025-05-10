@@ -8,14 +8,13 @@ public class StatsCalculator {
     }
 
     public double calculateDistance(int steps) {
-        return steps * strideLengthMeters;
+        return (steps * strideLengthMeters)/1000.0;
     }
 
     public double calculateSpeed(double distanceMeters, long elapsedMillis) {
         if (elapsedMillis <= 0) return 0;
         double elapsedSeconds = elapsedMillis / 1000.0;
-        double speedMetersPerSecond = distanceMeters / elapsedSeconds;
-        return speedMetersPerSecond * 3.6;
+        return (distanceMeters/1000.0) / (elapsedSeconds/3600.0);
     }
 }
 
